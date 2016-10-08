@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     background-image: url("http://viewallpapers.com/wp-content/uploads/Einstein-Most-Inspirational-Quotes.jpg");
-    margin-top: 75px;
+    background-position: center; 
 }
 
 .center {

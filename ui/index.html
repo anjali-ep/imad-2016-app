@@ -1,9 +1,17 @@
 <!doctype html>
 <html>
     <head>
-        
+        <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({left: '250px'});
+    });
+});
+</script>
     </head>
     <body>
+        
+<button>Start Animation</button>
         <div class="container">
             <div class="center">
                 <img id="madi" src="http://bit.ly/2dIahO8" class="img-medium"/>

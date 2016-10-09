@@ -22,6 +22,10 @@ body {
     height: 200px;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
 .boxed {
     float: right;
     /*border: 3px solid green ;*/

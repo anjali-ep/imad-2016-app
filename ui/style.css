@@ -23,6 +23,6 @@ body {
 }
 
 .boxed {
-    /*float: right;*/
+    float: right;
     border: 3px solid green ;
 }

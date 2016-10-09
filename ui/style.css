@@ -22,3 +22,6 @@ body {
     height: 300px;
 }
 
+.boxed {
+  border: 3px solid green ;
+}

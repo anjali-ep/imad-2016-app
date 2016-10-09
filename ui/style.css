@@ -26,4 +26,5 @@ body {
     float: right;
     border: 3px solid green ;
     background-color:black;
+    width: 400px;
 }

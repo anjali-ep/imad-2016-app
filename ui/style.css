@@ -29,7 +29,7 @@ body {
 .boxed {
     float: right;
     /*border: 3px solid green ;*/
-    background-color: #1a1a1a;
+    background-color: black;
     width: 455px;
     height: 650px;
     /*margin-top: 0px;*/

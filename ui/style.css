@@ -28,7 +28,7 @@ body {
 .boxed {
     /*border: 3px solid green ;*/
     background-color: #0099ff;
-    background: rgba(0, 153, 255, 0.1);
+    background: rgba(51, 173, 255, 0.1);
     width: 455px;
     height: 450px;
     /*margin-top: 0px;*/

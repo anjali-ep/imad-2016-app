@@ -17,7 +17,21 @@ app.get('/article-2', function (req, res) {
   res.send('Article two  will be available soon');
 });
 
+app.get('/ui/logo.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'logo.jpg'));
+});
 
+app.get('/ui/logo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'logo.png'));
+});
+
+app.get('/ui/graphic.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'graphic.png'));
+});
+
+app.get('/ui/bullet.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bullet.png'));
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });

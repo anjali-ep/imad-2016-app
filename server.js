@@ -17,10 +17,18 @@ app.get('/article-2', function (req, res) {
   res.send('Article two  will be available soon');
 });
 
-app.get('/ui/bgg.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bgg.jpg'));
+app.get('/ui/madi.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+
+app.get('/ui/bg_t.gif', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+});
+
+app.get('/ui/madi.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+});
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });

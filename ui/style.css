@@ -339,7 +339,7 @@ ul img {
  
 #slideshow-caption .slideshow-caption-container {
   padding: 10px 25px 10px 25px; 
-  background: transparent url(../images/transparent.png) repeat;  
+  background: transparent url(/ui/transparent.png) repeat;  
   z-index: 1000;}
  
 #slideshow-caption p {

@@ -22,8 +22,8 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 
-app.get('/ui/bg_t.gif', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bg_t.gif'));
+app.get('/ui/bird.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bird.jpg'));
 });
 
 app.get('/ui/top_bg.gif', function (req, res) {

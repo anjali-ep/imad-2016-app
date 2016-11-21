@@ -26,9 +26,7 @@ app.get('/ui/bird.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bird.jpg'));
 });
 
-app.get('/ui/favicon.ico', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'favicon.ico'));
-});
+
 app.get('/ui/bullet.gif', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bullet.gif'));
 });

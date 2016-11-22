@@ -21,20 +21,12 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-
 app.get('/ui/bird.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bird.jpg'));
 });
 
-
-app.get('/ui/bullet.gif', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bullet.gif'));
-});
-app.get('/ui/bg_menu.gif', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bg_menu.gif'));
-});
-app.get('/ui/bullet.gif', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bullet.gif'));
+app.get('/favicon.ico', function(req, res){
+    res.sendFile(path.join(__dirname, 'ui', 'favicon.ico'));
 });
 
 

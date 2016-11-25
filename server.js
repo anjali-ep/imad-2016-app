@@ -17,6 +17,10 @@ app.get('/article-2', function (req, res) {
   res.send('Article two  will be available soon');
 });
 
+app.get('/article-3', function (req, res) {
+  res.send('Article 3  will be available soon');
+});
+
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });

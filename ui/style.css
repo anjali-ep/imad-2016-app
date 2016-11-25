@@ -2,3 +2,30 @@
     background-color: #1abc9c; /* Green */
       color: #ffffff;
 }
+body {
+    font-family: sans-serif;
+    background-image: url("http://www.walldevil.com/wallpapers/a52/winter-backgrounds-snow-photography-background-landscape-images-r3mmv-wallpapers-guardrail.jpg");
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-big {
+    font-size: 300%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.boxed {
+    /*border: 3px solid green ;*/
+    background-color: #0099ff;
+    background: rgba(51, 173, 255, 0);
+    width: 300px;
+    height: 300px;
+    /*margin-top: 0px;*/
+    padding-top: 50px;
+}

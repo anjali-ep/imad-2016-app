@@ -64,6 +64,10 @@ app.get('/ui/coff.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'coff.jpg'));
 });
 
+app.get('/ui/contact.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contact.jpg'));
+});
+
 app.get('/ui/in.png', function(req, res){
     //server the static icon file
     res.sendFile(path.join(__dirname, 'ui', 'in.png'));

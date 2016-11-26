@@ -49,14 +49,23 @@ p {font-size: 16px;}
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
-.boxed {
-    background-color: #0099ff;
-    background: rgba(51, 173, 255, 0);
-    width: 455px;
-    height: 650px;
-    padding-top: 20px;
+div.bak
+{
+    background: url(ui/co.jpg) repeat;
+  border: 2px solid black;
+}
+div.trans{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
 }
 
+div.trans p{
+    font-weight: bold;
+  color: #000000;
+}
   </style>
 </head>
 <body>
@@ -83,10 +92,12 @@ p {font-size: 16px;}
 </nav>
     
 
-<div>
+<div class="bak">
+    <div class="trans">
 <img src="../ui/coff.jpg" class="img-responsive" style="display:inline height:90% object-fit: contain" id="imtop">
-    <h4>Hai all, welcome to my first webapp.</h4>
+    <p>Hai all, welcome to my first webapp.</p>
 </div> 
+</div>
 
     <section id="services" class="services bg-primary main_color_bg">
         <div class="container text-center">

@@ -48,7 +48,7 @@ pool.query("SELECT * FROM article WHERE title='"+ req.params.articleName + '', f
 });
 });
 
-app.get('/contact', function (req, res) {
+app.get('/contact.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 });
 

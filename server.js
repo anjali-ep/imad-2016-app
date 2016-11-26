@@ -17,7 +17,6 @@ app.get('/article-2', function (req, res) {
   res.send('Article two  will be available soon');
 });
 
-
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });

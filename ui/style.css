@@ -1,31 +1,44 @@
-.bg-1{
-    background-color: #1abc9c; /* Green */
-      color: #ffffff;
-}
 body {
-    font-family: sans-serif;
-    background-image: url("http://www.walldevil.com/wallpapers/a52/winter-backgrounds-snow-photography-background-landscape-images-r3mmv-wallpapers-guardrail.jpg");
-    background-size: cover;
+    font: 20px "Aref Ruqaa", serif;
+    font-weight:400px;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #f5f6f7;
 }
 
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.boxed {
-    /*border: 3px solid green ;*/
-    background-color: #0099ff;
-    background: rgba(51, 173, 255, 0);
-    width: 300px;
-    height: 300px;
-    /*margin-top: 0px;*/
-    padding-top: 50px;
-}
+p {font-size: 16px;}
+   .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #35C3E8; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #fff; /* White */
+      color: #555555;
+  }
+  
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+   .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  
+  .navbar {
+      padding-top: 5px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  

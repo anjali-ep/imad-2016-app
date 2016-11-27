@@ -76,7 +76,6 @@ app.get('/ui/abt.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'abt.png'));
 });
 
-
 app.get('/ui/in.png', function(req, res){
     //server the static icon file
     res.sendFile(path.join(__dirname, 'ui', 'in.png'));
